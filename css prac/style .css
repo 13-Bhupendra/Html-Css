@@ -1,0 +1,62 @@
+.one
+{
+	font-family:gill sans;
+}
+
+.two
+{
+	font-size:32px;
+}
+
+.three
+{
+	color:red;
+}
+.four
+{
+	font-wieght:600px
+}
+.five
+{
+	 text-align:left;
+}
+.six
+{
+	 text-align:center;
+}
+.seven
+{
+	 text-align:right;
+}
+.eight
+{
+	 text-align:justify;
+}
+#one
+{
+	line-height:40px;
+}
+
+div
+{
+	font-family:gill sans;
+}
+#two
+{
+	letter-spacing:10px;
+}
+p
+{
+	word-spacing:10px;
+}
+#three
+{
+	text-decoration:underline;
+}
+.four
+{
+	 text-trasform:uppercase;
+}
+ 
+
+ 
