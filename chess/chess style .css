@@ -1,0 +1,36 @@
+*
+{
+	margin:0%
+	padding:0%;
+	box-sixing:border-box;
+}
+ 
+.gray
+{
+	height:100px;
+	width:100px;
+	background-color:gray;
+	float:left;		margin-top:0%;
+	margin-bottom:0%;
+
+}
+.black
+{
+	height:100px;
+	width:100px;
+	background-color:black;
+	float:left;	margin-top:0%;
+	margin-bottom:0%;
+}
+.one
+{
+	height:100px;
+	width:800px;
+
+}
+.two
+{
+	height:100px;
+	width:800px;
+
+}
