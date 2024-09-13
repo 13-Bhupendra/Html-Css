@@ -1,0 +1,140 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo img
+{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 200px ;
+    height: 100px;
+    width: 150px;
+}
+.form
+{
+    height: 630px;
+    width: 450px;
+    background: rgba( 0, 0, 0, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.form-content
+{
+    height:530px;
+    width: 80%;
+    margin: 50px auto;
+}
+h1
+{
+    font-family: arial;
+    color: white;
+    margin-left: 15px;
+}
+
+.inputs input
+{
+    height: 40px;
+    width: 90%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 15px;
+    border:1px solid gray;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+::placeholder
+{
+    padding: 10px;
+    color: gray;
+}
+.buttons
+{
+    height: 47px;
+    width: 90%;
+    position: relative;
+    left: 15px;
+    top: 3%;
+}
+.buttons button
+{
+    height: 37px;
+    width: 100%;
+    background-color: #e50914;
+    color: white;
+    font-family:arial;
+    border-radius: 5px;
+}
+h3
+{
+    color: gray;
+    font-family: arial;
+    position: relative;
+    left: 47%;
+    top: 45%;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 33%;
+    font-family: arial;
+}
+.check
+{
+    position: relative;
+    top: 30%;
+    left: 15px;
+    color: white;
+}
+.checkbox
+{
+    margin-right: 6px;
+}
+.sign
+{
+    position: relative;
+    left: 15px;
+    top: 33%;
+    color: white;
+}
+.sign a
+{
+    position: relative;
+    top: 50%;
+    left: 10px;
+    font-size: 18px;
+}
+h4
+{
+    color: gray;
+    font-size: 15px;
+    font-family: arial;
+}
+h5
+{
+    color: gray;
+    font-size: 13px;
+    font-family: arial;
+    margin-top: 15px;
+}
