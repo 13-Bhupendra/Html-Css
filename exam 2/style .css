@@ -1,0 +1,176 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/testimonial.jpeg');
+
+}
+.content
+{
+    height: 480px;
+    width: 400px;
+    border: 2px dotted white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    backdrop-filter:blur(15px);
+    overflow: hidden;
+    overflow-y: scroll;
+    transition: 0.6s;
+}
+.content:hover 
+{
+    background-color:  #262626;
+}
+ 
+img
+{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 72%;
+    top: 32%;
+    border-radius: 50%;
+}
+h2
+{
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 70%;
+    top: 10%;
+    font-family: montserrat;
+    letter-spacing: 2px;
+    
+}
+.cir
+{
+    height: 200px;
+    width: 200px;
+    background-color: #1A5D1A;
+    border-radius: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left:10%;
+    top: 7%;
+}
+.cir2
+{
+    height: 150px;
+    width: 150px;
+    background-color: #ff7000c2;
+    border-radius: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top: 50%;
+    border: 2px dotted white;
+}
+i
+{
+    
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:12%;
+    top: 10%;
+}
+h3
+{
+    color: white;
+    font-family: montserrat;
+    font-weight:600 ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 19%;
+    top: 55%;
+}
+.star
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 9%;
+    top: 64%;
+    font-size: 19px;
+    color: #ffe000;
+}
+.star1
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 15%;
+    top: 64%;
+    font-size: 19px;
+    color: #ffe000;
+}
+
+.star2
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 21%;
+    top: 64%;
+    font-size: 19px;
+    color: #ffe000;
+}
+.star3
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 27%;
+    top: 64%;
+    font-size: 19px;
+    color: #ffe000;
+}
+.star4
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 33%;
+    top: 64%;
+    font-size: 19px;
+    color: #ffe000;
+}
+.form-con
+{
+    height: 300px;
+    width: 330px;
+    margin: auto;
+    margin-top: 35%;
+    text-align: justify;
+}
+p
+{
+    color: white;
+    font-family:montserrat;
+    font-size: 15px;
+    word-spacing: 5px;
+    line-height: 23px;
+}
+button
+{
+    height: 45px;
+    width: 120px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 21%;
+    top: 117%;
+    background-color: #ff7000c2;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-family: montserrat;
+    border-radius: 8px;
+}
+
