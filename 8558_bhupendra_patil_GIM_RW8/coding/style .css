@@ -1,0 +1,204 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(59,58,58,1) 75%, rgba(0,0,0,1) 100%);
+
+
+
+}
+.one
+{
+    height: 140px;
+    width: 100%;
+    background-color: #2b99cc;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 92%;
+     
+}
+.circle
+{
+    height: 800px;
+    width: 800px;
+    background-color: #F0DE36;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+
+    overflow: hidden;
+   
+
+}
+h3
+{
+    color: #010d4f;
+    font-family: "Geologica", sans-serif;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 25%;
+    font-weight: 500;
+    font-size: 25px;
+}
+h1
+{
+    color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 63%;
+    top: 35%;
+    color: #2b99cc;
+    font-size: 60px;
+    width: 100%;
+    font-family: "Matemasie", sans-serif;
+    letter-spacing: 5px;
+  
+   
+
+     
+}
+ 
+img
+{
+    height: 320px;
+    width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 75%;
+    
+}
+button
+{
+    height: 55px;
+    width: 110px;
+    color: white;
+    font-family: "Geologica", sans-serif;
+    background-color: #010d4f;
+    border: none;
+    outline: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+}
+.logo
+{
+    height: 140px;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    border-bottom: 2px white solid;
+     
+     
+}
+h2
+{
+    color: white;
+    font-family: "Geologica", sans-serif;
+     font-size: 40px;
+     position: absolute;
+    transform: translate(-50%,-50%);
+    left: 15%;
+    top: 79%;
+    font-weight: 400;
+    font-size: 26px;
+    
+     
+}
+.home
+{
+    color: white;
+    font-family: "Geologica", sans-serif;
+     font-size: 15px;
+     position: absolute;
+    transform: translate(-50%,-50%);
+    left: 70%;
+    top: 79%;
+    font-weight: 400;
+     
+    
+     
+}
+.con
+{
+    color: white;
+    font-family: "Geologica", sans-serif;
+     font-size: 15px;
+     position: absolute;
+    transform: translate(-50%,-50%);
+    left: 76%;
+    top: 79%;
+    font-weight: 400;
+     
+    
+     
+}
+.event
+{
+    color: white;
+    font-family: "Geologica", sans-serif;
+     font-size: 15px;
+     position: absolute;
+    transform: translate(-50%,-50%);
+    left: 82%;
+    top: 79%;
+    font-weight: 400;
+     
+    
+     
+}
+.cloudone
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 82%;
+    top: 20%;
+    height: 280px;
+    width: 450px;
+
+    transition: 1s;
+    
+
+}
+.cloudtwo
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 15%;
+    top: 30%;
+    height: 280px;
+    width: 450px;
+
+    transition: 1s;
+}
+body:hover .cloudone
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 20%;
+}
+body:hover .cloudtwo
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 30%;
+}
+
+ 
